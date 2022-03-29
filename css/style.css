@@ -84,12 +84,13 @@ section.first-section h2 {
 }
 
 /* jumbotron footer */
-.jumbotron-footer {
+.jumbotron_bottom {
     background-color: #1abc9c;
     padding: 20px 0;
+    margin-bottom: 30px;
 }
 
-.jumbotron-footer h2 {
+.jumbotron_bottom h2 {
     text-align: center;
     color: white; 
     text-transform: uppercase;
@@ -127,4 +128,45 @@ section.first-section h2 {
         padding: 0 10px;
     }
 }
+
+/* prefooter */
+.prefooter h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.prefooter_content {
+    padding: 0 70px;
+}
+
+.prefooter_content ul {
+    list-style: none;
+}
+
+.prefooter_content ul>li {
+    font-size: 1.2rem;
+    color: rgb(54, 54, 54);
+    line-height: 50px;
+}
+
+.border_bottom {
+    border-bottom: 1px solid gray;
+}
+
+.prefooter_content ul:last-child {
+    border: 0;
+}
+
+.pb_100 {
+    padding-bottom: 100px;
+}
+
+.prefooter_btn a{
+    text-decoration: none;
+    background-color: #1abc9c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 /* MAIN */
