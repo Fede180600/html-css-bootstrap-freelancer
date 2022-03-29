@@ -44,3 +44,10 @@ header {
         display: none;
     }
 }
+
+/* MAIN */
+.jumbotron {
+    padding: 100px 0;
+    background-color: #1abc9c;
+}
+/* MAIN */
