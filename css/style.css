@@ -47,7 +47,19 @@ header {
 
 /* MAIN */
 .jumbotron {
-    padding: 100px 0;
+    padding: 20px 0;
     background-color: #1abc9c;
+}
+
+.ms_jumbotron_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.jumbotron_img {
+    width: 30%;
+    margin-bottom: 10px;
 }
 /* MAIN */
