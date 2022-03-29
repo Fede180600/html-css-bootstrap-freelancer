@@ -2,6 +2,10 @@ html {
     font-size: 100%;
 }
 
+img {
+    width: 100%;
+}
+
 header {
     width: 100%;
     /* height: 70px; */
@@ -12,7 +16,9 @@ header {
 }
 
 .logo-wrapper {
-    font-size: 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .menu-wrapper {
@@ -48,6 +54,7 @@ header {
 /* MAIN */
 .jumbotron {
     padding: 20px 0;
+    margin-bottom: 20px;
     background-color: #1abc9c;
 }
 
@@ -61,5 +68,18 @@ header {
 .jumbotron_img {
     width: 30%;
     margin-bottom: 10px;
+}
+/* first section*/
+.first-section {
+    margin-bottom: 30px;
+}
+
+section.first-section h2 {
+    text-align: center;
+}
+
+.img_wrapper {
+    border-radius: 5px;
+    overflow: hidden    ;
 }
 /* MAIN */
