@@ -171,6 +171,7 @@ section.first-section h2 {
 
 /* footer */
 footer {
+    width: 100%;
     color: white;
 }
 .footer_top {
