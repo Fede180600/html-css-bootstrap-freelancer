@@ -1,8 +1,4 @@
 /* COMMON */
-html {
-    font-size: 100%;
-}
-
 img {
     width: 100%;
 }
@@ -282,15 +278,29 @@ footer {
 }
 
 .footer_top_content {
-    margin-bottom: 20px;
     padding: 0 15px;
+}
+
+.ms_entity {
+    display: inline-block;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px 3px 0 3px;
+}
+
+.ms_footer_green {
+    color:#1abc9c;
 }
 
 .footer_bottom {
     background-color: #2c3e50;
     padding: 30px 0;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* MAIN */
