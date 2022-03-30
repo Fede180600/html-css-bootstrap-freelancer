@@ -97,32 +97,44 @@ header {
     color: white;
 }
 
-.logo-wrapper {
-    font-size: 1rem;
+.logo_wrapper {
+    font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 600;
 
 }
 
 
-.menu-wrapper ul {
+.menu_wrapper ul {
     list-style: none;
     display: none;
 }
 
-.menu-list li {
+.menu_list li {
     display: inline-block;
     color: white;
+    margin: 0 8px;
+    font-size: .8rem;
+    font-weight: 600;
 }
 
-.menu-list li>a {
+.menu_list li:hover a {
+    color:#1abc9c;
+}
+
+.menu_list li>a {
     color: inherit;
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+.fa-bars:hover {
+    color:#1abc9c;
 }
 
 /* HEADER MEDIA QUERY MENU */
 @media all and (min-width: 768px) {
-    .menu-wrapper ul {
+    .menu_wrapper ul {
         display: block;
     }
 
@@ -130,7 +142,6 @@ header {
         display: none;
     }
 }
-
 /* MAIN */
 .jumbotron {
     background-color: #1abc9c;
@@ -183,10 +194,33 @@ header {
 
 .img_wrapper {
     border-radius: 5px;
-    overflow: hidden    ;
+    overflow: hidden;
+    position: relative;
 }
 
-/* jumbotron footer */
+.layover_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, .5);
+    display: none;
+}
+
+.img_wrapper:hover .layover_hover {
+    display: block;
+}
+
+.fa-plus {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* jumbotron bottom */
 .jumbotron_bottom {
     background-color: #1abc9c;
     padding: 20px 0;
@@ -216,8 +250,13 @@ header {
     padding: 5px 10px;
     border: 1px solid white;
     border-radius: 5px;
+    text-decoration: none;
 }
 
+.jumbotron_bottom_btn:hover a{
+    background-color: white;
+    color: #1abc9c;
+}
 /* jumbotron footer media query */
 @media all and (min-width: 768px) {
     .col_text {
@@ -264,6 +303,12 @@ header {
 .ms_form_container .ms_btn_color {
     background-color: #1abc9c;
     color: white;
+}
+
+.ms_btn_color:hover {
+    background-color: white;
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
 }
 
 /* footer */
