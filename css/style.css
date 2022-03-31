@@ -128,8 +128,15 @@ header {
     text-transform: uppercase;
 }
 
+.fa-bars {
+    border: 1px solid white;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
 .fa-bars:hover {
     color:#1abc9c;
+    border: 1px solid #1abc9c;
 }
 
 /* HEADER MEDIA QUERY MENU */
@@ -251,6 +258,7 @@ header {
     border: 1px solid white;
     border-radius: 5px;
     text-decoration: none;
+    transition: all .3s ease-in-out;
 }
 
 .jumbotron_bottom_btn:hover a{
@@ -339,6 +347,10 @@ footer {
 
 .ms_footer_green {
     color:#1abc9c;
+}
+
+.ms_footer_green:hover {
+    text-decoration: underline;
 }
 
 .footer_bottom {
