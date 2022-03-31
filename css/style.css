@@ -76,7 +76,7 @@ img {
     }
 
     .ms_star_black .fa-star {
-        margin: 0 10px;
+        margin: 0 15px;
     }
     
     .ms_star_white .ms_star_line {
@@ -84,7 +84,7 @@ img {
     }
 
     .ms_star_white .fa-star {
-        margin: 0 10px;
+        margin: 0 15px;
     }
 }
 /* HEADER */
@@ -162,7 +162,7 @@ header {
 }
 
 .ms_jumbotron_img {
-    width: 30%;
+    width: 10rem;
     margin-bottom: 10px;
 }
 
@@ -318,7 +318,7 @@ footer {
 }
 .footer_top {
     background-color: #3a546d;
-    padding: 30px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
